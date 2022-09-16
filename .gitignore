@@ -3,6 +3,9 @@
 *.lo
 *.o
 *.obj
+*.out
+*.a
+*.lib
 
 ### macOS ###
 # General
