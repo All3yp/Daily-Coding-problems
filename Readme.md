@@ -1,8 +1,8 @@
 # Daily Coding Problem  🌽
 
-Solutions to [Daily Coding Problem](https://www.dailycodingproblem.com) in c++.
+### Solutions to [Daily Coding Problem](https://www.dailycodingproblem.com) in c++.
 
-## Problem 1 [Easy]
+## 🚀 Problem 1 [Easy]
 
 This problem was recently asked by Google.
 Given a list of numbers and a number k, return whether any two numbers 
@@ -15,7 +15,7 @@ Bonus: Can you do this in one pass?
 
 ---
 
-## Problem 2 [Easy]
+## 🚀 Problem 2 [Easy]
 
 This problem was asked by Uber.
 
