@@ -33,7 +33,7 @@ Follow-up: what if you can't use division?
 #### Click [__*here*__](https://leetcode.com/problems/product-of-array-except-self/) to visit this question on [*LeetCode*](https://leetcode.com/).
 ---
 
-## Problem 3
+## 🚀 Problem 3 [Medium]
 
 This problem was asked by Google.
 
