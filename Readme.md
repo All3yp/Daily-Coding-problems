@@ -2,6 +2,8 @@
 
 ### Solutions to [Daily Coding Problem](https://www.dailycodingproblem.com) in c++.
 
+> **_NOTE:_** Some codes are commented in Portuguese 🇧🇷, because it is my native language.
+
 ## 🚀 Problem 1 [Easy]
 
 This problem was recently asked by Google.
