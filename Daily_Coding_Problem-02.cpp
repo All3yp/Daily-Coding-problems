@@ -15,8 +15,7 @@
         esperado.
 */
 
-#include <iostream>
-using namespace std;
+#include "Daily_Coding_Problem.h"
 
 int arrayOfInteger(const int arr[], int size)
 {

@@ -1,7 +1,6 @@
 /* MARK: - SOLUTION ✨ */
 
-#include <iostream>
-using namespace std;
+#include "Daily_Coding_Problem.h"
 
 bool listAdd(const int list[], int k, int size)
 {

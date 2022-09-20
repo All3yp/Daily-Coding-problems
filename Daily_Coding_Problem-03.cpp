@@ -1,12 +1,6 @@
 /* MARK: - SOLUTION ✨ */
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <sstream>
-#include <queue>
-#include <assert.h>
-using namespace std;
+#include "Daily_Coding_Problem.h"
 
 //  * Definition for a binary tree node.
 struct TreeNode { 
