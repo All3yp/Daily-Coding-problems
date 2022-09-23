@@ -101,7 +101,8 @@ function cons(a, b) {
 
 Implement car and cdr.
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-05.cpp)
+[🎉 Solution C++](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-05.cpp)</br>
+[🎉 Solution Swift](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_problem-05.swift)
 #### Click [__*here*__](https://leetcode.com/problems/number-of-good-pairs/) to visit a similar question on [*LeetCode*](https://leetcode.com/).
 
 ---
@@ -118,6 +119,7 @@ If using a language that has no pointers (such as Python), you can assume you ha
 #### Click [__*here*__](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) to visit a similar question on [*LeetCode*](https://leetcode.com/).
 
 ---
+
 ## 🚀 Problem 7 [Medium]
 
 This problem was asked by Facebook.
