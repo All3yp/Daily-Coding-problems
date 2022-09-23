@@ -118,3 +118,17 @@ If using a language that has no pointers (such as Python), you can assume you ha
 #### Click [__*here*__](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) to visit a similar question on [*LeetCode*](https://leetcode.com/).
 
 ---
+## 🚀 Problem 7 [Medium]
+
+This problem was asked by Facebook.
+
+Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
+
+For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
+
+You can assume that the messages are decodable. For example, '001' is not allowed.
+
+[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-07.cpp)
+#### Click [__*here*__](https://leetcode.com/problems/decode-ways/) to visit this question on [*LeetCode*](https://leetcode.com/).
+
+---
