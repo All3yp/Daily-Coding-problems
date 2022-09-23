@@ -60,3 +60,23 @@ int main()
     std::cout << "Number of combinations: " << c << std::endl;
     return (0);
 }
+
+/* MARK: - Alternative solution for Leetcode */
+
+class SolutionLeetcode {
+public:  
+    int numDecodings(string s) {
+        int n = s.size(); // declara o tamanho da string
+        if (n == 0) return 0; // se a string for vazia, retorna 0 combinações
+        vector<int> dp(n + 1, 0); // declara um vetor de inteiros com tamanho n + 1 e inicializa com 0
+        dp[n] = 1; // inicializa o ultimo elemento do vetor com 1
+        dp[n - 1] = s[n - 1] != '0' ? 1 : 0; // inicializa o penultimo elemento do vetor com 1 se o penultimo caractere da string for diferente de 0, senão inicializa com 0
+        for (int i = n - 2; i >= 0; i--) { // percorre a string de trás pra frente
+            if (s[i] == '0') continue; // se o caractere for 0, continua o loop
+            else dp[i] = (stoi(s.substr(i, 2)) <= 26) ? dp[i + 1] + dp[i + 2] : dp[i + 1]; // se o caractere for diferente de 0, 
+                // converte os dois caracteres para inteiro e verifica se é menor ou igual a 26, se for, soma o elemento atual com o 
+                // elemento seguinte e o elemento atual com o elemento seguinte + 1, senão, soma o elemento atual com o elemento seguinte, ex: 111 = 3 (aaa, ka, ak)
+        }
+        return dp[0];  // retorna o primeiro elemento do vetor
+    }
+};
