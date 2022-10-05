@@ -14,7 +14,7 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` 
 
 Bonus: Can you do this in one pass?
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-01.cpp)
+[Solution 🎉](Daily_Coding_Problem-01.cpp)
 #### Click [__*here*__](https://leetcode.com/problems/two-sum/) to visit this question on [*LeetCode*](https://leetcode.com/).
 ---
 
@@ -32,7 +32,7 @@ the expected output would be `[2, 3, 6]`.
 
 Follow-up: what if you can't use division?
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-02.cpp)
+[Solution 🎉](Daily_Coding_Problem-02.cpp)
 #### Click [__*here*__](https://leetcode.com/problems/product-of-array-except-self/) to visit this question on [*LeetCode*](https://leetcode.com/).
 ---
 
@@ -64,7 +64,7 @@ const node = new TreeNode(
 expect(deserialize(serialize(node)).left.left.val).toEqual('left.left');
 ```
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-03.cpp)
+[Solution 🎉](Daily_Coding_Problem-03.cpp)
 #### Click [__*here*__](https://leetcode.com/problems/serialize-and-deserialize-bst/) to visit this question on [*LeetCode*](https://leetcode.com/).
 ---
 
@@ -78,7 +78,7 @@ For example, the input `[3, 4, -1, 1]` should give 2. The input `[1, 2, 0]` shou
 
 You can modify the input array in-place.
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-04.cpp)
+[Solution 🎉](Daily_Coding_Problem-04.cpp)
 #### Click [__*here*__](https://leetcode.com/problems/first-missing-positive/) to visit a similar question on [*LeetCode*](https://leetcode.com/).
 ---
 
@@ -101,7 +101,7 @@ function cons(a, b) {
 
 Implement car and cdr.
 
-[🎉 Solution C++](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-05.cpp)</br>
+[🎉 Solution C++](Daily_Coding_Problem-05.cpp)</br>
 [🎉 Solution Swift](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_problem-05.swift)
 #### Click [__*here*__](https://leetcode.com/problems/number-of-good-pairs/) to visit a similar question on [*LeetCode*](https://leetcode.com/).
 
@@ -115,7 +115,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-06.cpp)
+[Solution 🎉](Daily_Coding_Problem-06.cpp)
 #### Click [__*here*__](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) to visit a similar question on [*LeetCode*](https://leetcode.com/).
 
 ---
@@ -128,7 +128,31 @@ Given the mapping `a = 1, b = 2, ... z = 26`, and an encoded message, count the 
 For example, the message `'111'` would give 3, since it could be decoded as `'aaa'`, `'ka'`, and `'ak'`.
 You can assume that the messages are decodable. For example, `'001'` is not allowed.
 
-[Solution 🎉](https://github.com/All3yp/Daily-Coding-problems/blob/main/Daily_Coding_Problem-07.cpp)
+[Solution 🎉](Daily_Coding_Problem-07.cpp)
 #### Click [__*here*__](https://leetcode.com/problems/decode-ways/) to visit this question on [*LeetCode*](https://leetcode.com/).
+
+---
+
+## 🚀 Problem 8 [Easy]
+
+####  This problem was asked by Google.
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+Given the root to a binary tree, count the number of unival subtrees.
+For example, the following tree has 5 unival subtrees:
+
+```
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 1   1
+```
+
+[Solution 🎉](Daily_Coding_Problem-08.cpp)
+
+<!-- #### Click [__*here*__]() to visit this question on [*LeetCode*](https://leetcode.com/). -->
 
 ---

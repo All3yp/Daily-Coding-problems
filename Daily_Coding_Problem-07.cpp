@@ -77,6 +77,6 @@ public:
                 // converte os dois caracteres para inteiro e verifica se é menor ou igual a 26, se for, soma o elemento atual com o 
                 // elemento seguinte e o elemento atual com o elemento seguinte + 1, senão, soma o elemento atual com o elemento seguinte, ex: 111 = 3 (aaa, ka, ak)
         }
-        return dp[0];  // retorna o primeiro elemento do vetor para saber a quantidade de combinações possiveis de decodificação ex: 111 = 3 (aaa, ka, ak)
+        return dp[0];  // retorna o primeiro elemento do vetor para saber a quantidade de combinações possiveis de decodificação ex: 111 = 3 (aaa, ka, ak) 
     }
 };
